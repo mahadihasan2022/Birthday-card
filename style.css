@@ -1,31 +1,35 @@
 body{
     font-family: 'The Nautigal', cursive;
+    font-family: 'Redressed', cursive;
 }
 .card {
   position: relative;
   width: 540px;
-  height: 500px;
+  height: 610px;
   border: 10px solid border-color;
   margin: 50px auto 0 auto;
   box-shadow: inset 10px 0px 15px 0px rgba(0,0,0,0.1);
-  background-color: rgb(230, 240, 230);
+  background-color: lightpink;
 }
 .text-container{
   display: flex;
   justify-content: space-around;
 }
+.cake-img{
+  font-size: 60px;
+}
 h1{
   text-align: center;
-  background-color: pink;
+  background-color: rgb(216, 90, 111);
 }
 .half-pic{
   width: 120px;
   height: 120px;
 }
 .half-pic img{
-width: 100%;
-height: 100%;
-padding: 22px;
+width: 150%;
+height: 150%;
+padding: 20px;
 }
 .half-text{
   width: 50%;
@@ -41,18 +45,28 @@ padding: 22px;
 }
 .orange{
   color: sienna;
+  font-style: italic;
+  font: bold,italic;
 }
 .yellow{
   color: chocolate;
+  font-style: italic;
+  font: bold, italic;
+  
 }
 .red{
-  color: brown;
+  color: rgb(192, 32, 32);
+  font-style: italic;
+  font: italic, bold;
 }
 .black{
   color: maroon;
+  font-style: italic;
+  font: bold,italic;
 }
 .white{
   color: black;
+  font-style: italic;
 }
 .card .front { 
   padding-right: 10px;
@@ -77,6 +91,9 @@ padding: 22px;
   transform: perspective(800px) rotateY(-170deg);
   box-shadow: 7px 0px 5px 0px rgba(0,0,0,0.3), inset 2px 0px 15px 0px rgba(0,0,0,0.1);
   background-color: rgb(210, 220, 210);
+}
+.propose{
+  text-align: right;
 }
 .card .back {
   position: absolute;
@@ -120,10 +137,18 @@ padding: 22px;
   width: 100%;
   height: 100%;
   right: 12%;
-  background-color: white;
+  background-color: rgb(215, 144, 155);
   border-radius: 50px;
   box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
 
+}
+.name{
+  font-size: 30px;
+  color: seagreen;
+}
+.tittle{
+  color: chartreuse;
+  font-size: large;
 }
 
 #shape-image {
@@ -181,8 +206,9 @@ $size: 0.4;
 }
 .layer.layer-bottom header{
   text-align: right;
-  padding-right: 120%;
-  color: mediumblue;
+  padding-right: 150%;
+  color: #331717;
+  font-size: 15px;
 }
 .layer.layer-bottom img{
   width: 100%;

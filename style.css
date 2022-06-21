@@ -28,8 +28,9 @@ h1{
 }
 .half-pic img{
 width: 150%;
-height: 150%;
+height: 180%;
 padding: 20px;
+border-radius: 20px;
 }
 .half-text{
   width: 50%;
@@ -94,6 +95,8 @@ padding: 20px;
 }
 .propose{
   text-align: right;
+  color: black;
+  background-color: rgb(216, 90, 111);
 }
 .card .back {
   position: absolute;
@@ -149,6 +152,7 @@ padding: 20px;
 .tittle{
   color: chartreuse;
   font-size: large;
+  
 }
 
 #shape-image {
